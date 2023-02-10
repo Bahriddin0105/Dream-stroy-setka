@@ -19,10 +19,10 @@
 
 .leftbargleft img {
   position: absolute;
-  width: 441px;
-  height: 480px;
+  width: 20%;
+  /* height: 480px; */
   left: 0%;
-  top: 267px;
+  top: 38%;
   /* 
 background: url(Bush.I02.png);
 filter: blur(7.5px);
@@ -31,10 +31,10 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
 
 .leftbargright img {
   position: absolute;
-  width: 441px;
-  height: 480px;
+  width: 20%;
+  /* height: 480px; */
   right: 0%;
-  top: 267px;
+  top: 38%;
   /* 
 background: url(Bush.I02.png);
 filter: blur(7.5px);
@@ -50,20 +50,18 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
 
 .navbar .logotekst {
-
   position: absolute;
   width: 192px;
   height: 60px;
   left: 555px;
   top: 42px;
 
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 140%;
   /* or 20px */
-
 
   /* black */
 
@@ -85,7 +83,6 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
 
 .navbar .instaround {
-
   box-sizing: border-box;
   border-radius: 50%;
   position: absolute;
@@ -135,13 +132,12 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   left: 957px;
   top: 49px;
 
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 130%;
   /* or 18px */
-
 
   /* black */
 
@@ -157,13 +153,12 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   left: 957px;
   top: 72px;
 
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 130%;
   /* or 23px */
-
 
   /* black */
 
@@ -179,25 +174,22 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   border-radius: 50%;
   /* orange */
 
-  background: #FF9200;
+  background: #ff9200;
 }
 
 .navbar .phone1 {
-
-
   position: absolute;
   width: 193px;
   height: 17px;
   left: 1183px;
   top: 49px;
 
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   /* identical to box height */
-
 
   /* black */
 
@@ -213,7 +205,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   left: 1148px;
   top: 66px;
 
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -247,13 +239,12 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   left: 25%;
   top: -15%;
 
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
   /* identical to box height */
-
 
   /* black */
 
@@ -271,7 +262,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
 
   /* orange */
 
-  background: #FF9200;
+  background: #ff9200;
   border-radius: 0px 20px 20px 0px;
   /* transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
@@ -283,13 +274,12 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   left: 25%;
   top: -15%;
 
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
   /* identical to box height */
-
 
   /* black */
 
@@ -298,34 +288,34 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
 
 /* body */
 
-.body .bodytekst{
+.body .bodytekst {
   position: absolute;
-width: 1000px;
-height: 192px;
-left: 405px;
-top: 142px;
+  width: 1000px;
+  height: 192px;
+  left: 405px;
+  top: 142px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 46px;
-line-height: 140%;
-/* or 64px */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 140%;
+  /* or 64px */
 
-text-transform: uppercase;
+  text-transform: uppercase;
 
-/* black */
+  /* black */
 
-color: #323232;
+  color: #323232;
 }
-.body .bodyline{
+.body .bodyline {
   position: absolute;
-width: 30px;
-height: 0px;
-left: 405px;
-top: 362px;
+  width: 30px;
+  height: 0px;
+  left: 405px;
+  top: 362px;
 
-/* orange */
+  /* orange */
 
-border: 3px solid #FF9200;
+  border: 3px solid #ff9200;
 }

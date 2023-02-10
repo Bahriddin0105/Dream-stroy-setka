@@ -7,10 +7,39 @@
   position: relative;
   top: 0%;
   left: 0%;
-  width: 1366px;
+  width: 100%;
   /* margin-left: -1%; */
   height: 100vh;
 }
 .backimg img {
   width: 100%;
+}
+.leftbargleft img{
+  position: absolute;
+width: 441px;
+height: 480px;
+left: 0%;
+top: 267px;
+/* 
+background: url(Bush.I02.png);
+filter: blur(7.5px);
+transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+.leftbargright img{
+  position: absolute;
+width: 441px;
+height: 480px;
+right: 0%;
+top: 267px;
+/* 
+background: url(Bush.I02.png);
+filter: blur(7.5px);
+transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+.navbar .logo{
+  position: absolute;
+width: 135px;
+height: 100px;
+left: 405px;
+top: 19px;
 }

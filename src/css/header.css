@@ -1,0 +1,16 @@
+.back {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.backimg {
+  position: relative;
+  top: 0%;
+  left: 0%;
+  width: 1366px;
+  /* margin-left: -1%; */
+  height: 100vh;
+}
+.backimg img {
+  width: 100%;
+}

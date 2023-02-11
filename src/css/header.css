@@ -380,3 +380,32 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   order: 0;
   flex-grow: 0;
 }
+@media (min-width: 425) and (max-width: 1500){
+
+.leftbargleft img {
+  position: absolute;
+  width: 20%;
+  /* height: 480px; */
+  left: 0%;
+  top: 330px;
+  /* 
+background: url(Bush.I02.png);
+filter: blur(7.5px);
+transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+.leftbargright img {
+  position: absolute;
+  width: 20%;
+  /* height: 480px; */
+  right: 0%;
+  top: 330px;
+  /* 
+background: url(Bush.I02.png);
+filter: blur(7.5px);
+transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+}
+@media (max-width: 425px){
+
+}

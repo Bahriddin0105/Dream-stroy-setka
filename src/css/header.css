@@ -45,16 +45,16 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   position: absolute;
   width: 135px;
   height: 100px;
-  left: 405px;
-  top: 19px;
+  left: 21.5%;
+  top: 3%;
 }
 
 .navbar .logotekst {
   position: absolute;
-  width: 192px;
-  height: 60px;
-  left: 555px;
-  top: 42px;
+  width: 10%;
+  /* height: 60px; */
+  left: 30%;
+  top: 5%;
 
   font-family: "Montserrat";
   font-style: normal;

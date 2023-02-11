@@ -43,10 +43,10 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
 
 .navbar .logo {
   position: absolute;
-  width: 135px;
-  height: 100px;
+  width: 7%;
+  height: 15;
   left: 21.5%;
-  top: 3%;
+  top: 19px;
 }
 
 .navbar .logotekst {
@@ -54,7 +54,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   width: 10%;
   /* height: 60px; */
   left: 30%;
-  top: 5%;
+  top: 42px;
 
   font-family: "Montserrat";
   font-style: normal;

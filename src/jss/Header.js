@@ -38,6 +38,8 @@ export default class Header extends Component {
             <p className="bodytekst">Крупнейшие по производству строительных сеток и проволок
               c 7 летним опытом</p>
               <span className="bodyline"></span>
+              <p className="linetekst">Продукты всегда на готове вам не придется ждать</p>
+              <span className="konsultatsiya"><p>Консультация</p></span>
           </div>
 
           <div className="leftbargleft"><img src={barg1} alt="" /></div>

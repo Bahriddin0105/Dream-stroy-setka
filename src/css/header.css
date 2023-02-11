@@ -72,9 +72,9 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   box-sizing: border-box;
   border-radius: 50%;
   position: absolute;
-  width: 3%;
+  width: 40px;
   height: 40px;
-  left: 780px;
+  left: 40.5%;
   top: 51px;
 
   /* black */
@@ -88,7 +88,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   position: absolute;
   width: 40px;
   height: 40px;
-  left: 832px;
+  left: 43.4%;
   top: 51px;
 
   /* black */
@@ -117,7 +117,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   position: absolute;
   width: 40px;
   height: 40px;
-  left: 884px;
+  left: 46.4%;
   top: 51px;
 
   /* black */
@@ -129,7 +129,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   position: absolute;
   width: 95px;
   height: 18px;
-  left: 957px;
+  left: 50%;
   top: 49px;
 
   font-family: "Montserrat";
@@ -150,7 +150,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   position: absolute;
   width: 158px;
   height: 23px;
-  left: 957px;
+  left: 50%;
   top: 72px;
 
   font-family: "Montserrat";
@@ -169,7 +169,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   position: absolute;
   width: 8px;
   height: 8px;
-  left: 1170px;
+  left: 61%;
   top: 54px;
   border-radius: 50%;
   /* orange */
@@ -181,7 +181,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   position: absolute;
   width: 193px;
   height: 17px;
-  left: 1183px;
+  left: 61.5%;
   top: 49px;
 
   font-family: "Montserrat";
@@ -202,7 +202,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   position: absolute;
   width: 225px;
   height: 29px;
-  left: 1148px;
+  left: 60%;
   top: 66px;
 
   font-family: "Montserrat";
@@ -222,7 +222,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   position: absolute;
   width: 53px;
   height: 42px;
-  left: 1409px;
+  left: 73.5%;
   top: 51px;
 
   opacity: 0.5;
@@ -257,7 +257,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   position: absolute;
   width: 53px;
   height: 42px;
-  left: 1460px;
+  left: 76%;
   top: 51px;
 
   /* orange */
@@ -290,9 +290,9 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
 
 .body .bodytekst {
   position: absolute;
-  width: 1000px;
+  width: 52%;
   height: 192px;
-  left: 405px;
+  left: 21%;
   top: 142px;
 
   font-family: "Montserrat";
@@ -313,7 +313,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   position: absolute;
   width: 30px;
   height: 0px;
-  left: 405px;
+  left: 21%;
   top: 380px;
 
   /* orange */
@@ -323,9 +323,9 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
 
 .body .linetekst {
   position: absolute;
-  width: 500px;
+  width: 26%;
   height: 22px;
-  left: 445px;
+  left: 23.5%;
   top: 354px;
 
   font-family: "Montserrat";
@@ -348,9 +348,9 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   padding: 12px 35px;
 
   position: absolute;
-  width: 200px;
+  width: 10%;
   height: 44px;
-  left: 405px;
+  left: 21%;
   top: 430px;
 
   /* orange */

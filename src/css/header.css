@@ -8,7 +8,7 @@
   position: relative;
   top: 0%;
   left: 0%;
-  width: 1920px;
+  width: 100%;
   /* margin-left: -1%; */
   height: 760px;
 }
@@ -72,7 +72,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   box-sizing: border-box;
   border-radius: 50%;
   position: absolute;
-  width: 40px;
+  width: 3%;
   height: 40px;
   left: 780px;
   top: 51px;
@@ -328,13 +328,12 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   left: 445px;
   top: 354px;
 
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
   /* identical to box height */
-
 
   /* black */
 
@@ -356,7 +355,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
 
   /* orange */
 
-  background: #FF9200;
+  background: #ff9200;
   border-radius: 12px;
 }
 
@@ -364,18 +363,16 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   width: 120px;
   height: 20px;
 
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 20px;
   /* identical to box height */
 
-
   /* white */
 
-  color: #FFFFFF;
-
+  color: #ffffff;
 
   /* Inside auto layout */
 

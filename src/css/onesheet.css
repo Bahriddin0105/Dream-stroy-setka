@@ -1,0 +1,703 @@
+.onesheeet {
+  position: absolute;
+  width: 1920px;
+  height: 1620px;
+  top: 760px;
+  background-image: url("../image/cloud_bg.png");
+  background-size: cover;
+}
+.onesheet .onesheeth1 {
+  position: absolute;
+  width: 1110px;
+  height: 120px;
+  left: 405px;
+  top: 80px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+  /* or 60px */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  /* black */
+
+  color: #323232;
+}
+.onesheeet .onesheetp {
+  position: absolute;
+  width: 1110px;
+  height: 120px;
+  left: 405px;
+  top: 125px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  /* font-ight: 700; */
+  font-size: 30px;
+  line-height: 150%;
+  /* or 60px */
+
+  text-align: center;
+  /* text-transform: uppercase; */
+
+  /* black */
+
+  color: #323232;
+}
+
+.onesheeet .card1 {
+  position: absolute;
+  width: 540px;
+  height: 300px;
+  left: 405px;
+  top: 260px;
+  padding: 30px;
+  box-sizing: border-box;
+  background: #eaeaea;
+  border-radius: 20px;
+}
+
+.card1 .cardh3 {
+  position: relative;
+  width: 258px;
+  height: 36px;
+  left: 0%;
+  top: 8%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+  /* black */
+
+  color: #323232;
+}
+.card1 .cardp {
+  position: relative;
+  width: 250px;
+  height: 63px;
+  left: 0%;
+  top: 5%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #323232;
+}
+.card1 .cardimg {
+  position: absolute;
+  width: 255px;
+  height: 236px;
+  right: 0px;
+  top: 11px;
+}
+.card1 .cardbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 40px;
+
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  /* left: 0px; */
+  top: 200px;
+
+  /* orange */
+
+  background: #ff9200;
+  border-radius: 10px;
+}
+
+.card1 .cardbtn p {
+  width: 98px;
+  height: 20px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  /* white */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+/* card2 */
+
+.onesheeet .card2 {
+  position: absolute;
+  width: 540px;
+  height: 300px;
+  left: 1000px;
+  top: 260px;
+  padding: 30px;
+  box-sizing: border-box;
+  background: #eaeaea;
+  border-radius: 20px;
+}
+
+.card2 .cardh3 {
+  position: relative;
+  width: 258px;
+  height: 36px;
+  left: 0%;
+  top: 8%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+  /* black */
+
+  color: #323232;
+}
+.card2 .cardp {
+  position: relative;
+  width: 250px;
+  height: 63px;
+  left: 0%;
+  top: 5%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #323232;
+}
+.card2 .cardimg {
+  position: absolute;
+  width: 255px;
+  height: 236px;
+  right: 0px;
+  top: 11px;
+}
+.card2 .cardbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 40px;
+
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  /* left: 0px; */
+  top: 200px;
+
+  /* orange */
+
+  background: #ff9200;
+  border-radius: 10px;
+}
+
+.card2 .cardbtn p {
+  width: 98px;
+  height: 20px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  /* white */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* card3 */
+
+.onesheeet .card3 {
+  position: absolute;
+  width: 540px;
+  height: 300px;
+  left: 406px;
+  top: 600px;
+  padding: 30px;
+  box-sizing: border-box;
+  background: #eaeaea;
+  border-radius: 20px;
+}
+
+.card3 .cardh3 {
+  position: relative;
+  width: 258px;
+  height: 36px;
+  left: 0%;
+  top: 8%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+  /* black */
+
+  color: #323232;
+}
+.card3 .cardp {
+  position: relative;
+  width: 250px;
+  height: 63px;
+  left: 0%;
+  top: 5%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #323232;
+}
+.card3 .cardimg {
+  position: absolute;
+  width: 255px;
+  height: 236px;
+  right: 0px;
+  top: 11px;
+}
+.card3 .cardbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 40px;
+
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  /* left: 0px; */
+  top: 200px;
+
+  /* orange */
+
+  background: #ff9200;
+  border-radius: 10px;
+}
+
+.card3 .cardbtn p {
+  width: 98px;
+  height: 20px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  /* white */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+/* card4 */
+
+.onesheeet .card4 {
+  position: absolute;
+  width: 540px;
+  height: 300px;
+  left: 1000px;
+  top: 600px;
+  padding: 30px;
+  box-sizing: border-box;
+  background: #eaeaea;
+  border-radius: 20px;
+}
+
+.card4 .cardh3 {
+  position: relative;
+  width: 258px;
+  height: 36px;
+  left: 0%;
+  top: 8%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+  /* black */
+
+  color: #323232;
+}
+.card4 .cardp {
+  position: relative;
+  width: 250px;
+  height: 63px;
+  left: 0%;
+  top: 5%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #323232;
+}
+.card4 .cardimg {
+  position: absolute;
+  width: 255px;
+  height: 236px;
+  right: 0px;
+  top: 11px;
+}
+.card4 .cardbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 40px;
+
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  /* left: 0px; */
+  top: 200px;
+
+  /* orange */
+
+  background: #ff9200;
+  border-radius: 10px;
+}
+
+.card4 .cardbtn p {
+  width: 98px;
+  height: 20px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  /* white */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* card5 */
+
+.onesheeet .card5 {
+  position: absolute;
+  width: 540px;
+  height: 300px;
+  left: 405px;
+  top: 940px;
+  padding: 30px;
+  box-sizing: border-box;
+  background: #eaeaea;
+  border-radius: 20px;
+}
+
+.card5 .cardh3 {
+  position: relative;
+  width: 258px;
+  height: 36px;
+  left: 0%;
+  top: 8%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+  /* black */
+
+  color: #323232;
+}
+.card5 .cardp {
+  position: relative;
+  width: 250px;
+  height: 63px;
+  left: 0%;
+  top: 5%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #323232;
+}
+.card5 .cardimg {
+  position: absolute;
+  width: 255px;
+  height: 236px;
+  right: 0px;
+  top: 11px;
+}
+.card5 .cardbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 40px;
+
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  /* left: 0px; */
+  top: 200px;
+
+  /* orange */
+
+  background: #ff9200;
+  border-radius: 10px;
+}
+
+.card5 .cardbtn p {
+  width: 98px;
+  height: 20px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  /* white */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* card6 */
+
+.onesheeet .card6 {
+  position: absolute;
+  width: 540px;
+  height: 300px;
+  left: 1000px;
+  top: 940px;
+  padding: 30px;
+  box-sizing: border-box;
+  background: #eaeaea;
+  border-radius: 20px;
+}
+
+.card6 .cardh3 {
+  position: relative;
+  width: 258px;
+  height: 36px;
+  left: 0%;
+  top: 8%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+  /* black */
+
+  color: #323232;
+}
+.card6 .cardp {
+  position: relative;
+  width: 250px;
+  height: 63px;
+  left: 0%;
+  top: 5%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #323232;
+}
+.card6 .cardimg {
+  position: absolute;
+  width: 255px;
+  height: 236px;
+  right: 0px;
+  top: 11px;
+}
+.card6 .cardbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 40px;
+
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  /* left: 0px; */
+  top: 200px;
+
+  /* orange */
+
+  background: #ff9200;
+  border-radius: 10px;
+}
+
+.card6 .cardbtn p {
+  width: 98px;
+  height: 20px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  /* white */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+/* card7 */
+
+.onesheeet .card7 {
+  position: absolute;
+  width: 540px;
+  height: 300px;
+  left: 405px;
+  top: 1280px;
+  padding: 30px;
+  box-sizing: border-box;
+  background: #eaeaea;
+  border-radius: 20px;
+}
+
+.card7 .cardh3 {
+  position: relative;
+  width: 258px;
+  height: 36px;
+  left: 0%;
+  top: 8%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+  /* black */
+
+  color: #323232;
+}
+.card7 .cardp {
+  position: relative;
+  width: 250px;
+  height: 63px;
+  left: 0%;
+  top: 5%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #323232;
+}
+.card7 .cardimg {
+  position: absolute;
+  width: 255px;
+  height: 236px;
+  right: 0px;
+  top: 11px;
+}
+.card7 .cardbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 40px;
+
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  /* left: 0px; */
+  top: 200px;
+
+  /* orange */
+
+  background: #ff9200;
+  border-radius: 10px;
+}
+
+.card7 .cardbtn p {
+  width: 98px;
+  height: 20px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  /* white */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

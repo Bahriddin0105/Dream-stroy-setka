@@ -58,9 +58,9 @@
 
 .sixsheet .sixboximg {
     position: absolute;
-    width: 100%;
-    /* height: 150px; */
-    left: 0px;
+    width: 90%;
+    height: 150px;
+    left: 10px;
     top: 140px;
 }
 
@@ -91,9 +91,9 @@
 .sixsheet .sixishchi {
     position: absolute;
     width: 25.8%;
-    height: 623px;
+    /* height: 623px; */
     left: 57%;
-    top: 390px;
+    top: 290px;
     z-index: 1;
 }
 
@@ -109,11 +109,11 @@
     padding: 20px;
 }
 
-.sixsheet .sixgarant .mingarant {
+.sixsheet .mingarant {
     position: absolute;
     width: 80%;
     height: 68px;
-    left: 1.5%;
+    left: 5%;
     top: 20px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -127,7 +127,7 @@
     font-size: 20px;
     position: absolute;
     top: 60px;
-    left: 1.5%;
+    left: 5%;
     color: #FFFFFF;
 }
 
@@ -142,16 +142,16 @@
     position: absolute;
     width: 9.3%;
     height: 0px;
-    left: 16px;
-    top: 5.6%;
+    left: 5%;
+    top: 100px;
     border: 1px dashed #FFFFFF;
 }
 
 .sixsheet .sixgarant .maxgarant {
     position: absolute;
-    width: 88%;
+    width: 99%;
     height: 74px;
-    left: 1.5%;
+    left: 5%;
     top: 120px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -193,7 +193,7 @@
     border: 7px solid black;
 }
 
-@media (min-width: 425px) and (max-width: 1500px) {
+@media (min-width: 451px) and (max-width: 1500px) {
     .sixsheet .sixh1 {
         font-size: 32px;
     }
@@ -218,24 +218,123 @@
         left: 20px;
         font-size: 43px;
     }
+
     .sixsheet .sixgarant .maxgarant {
         /* width: ; */
         left: 19px;
         font-size: 43px;
     }
+
     .smallsix1,
     .smallsix2 {
         font-size: 19px;
         position: absolute;
         left: 20px;
     }
+
     .smallsix2 {
         width: 7.8%;
         top: 170px;
         font-size: 18px;
     }
-    .dashedline{
+
+    .dashedline {
         top: 110px;
         width: 100px;
+    }
+}
+
+@media (max-width: 450px) {
+    .sixsheet {
+        top: 8000px;
+        height: 2000px;
+    }
+
+    .sixsheet .sixshit {
+        width: 30%;
+        top: -60px;
+    }
+
+    .sixsheet .sixh1 {
+        font-size: 25px;
+        width: 90%;
+        left: 5%;
+    }
+
+    .setkasix,
+    .sersix1,
+    .sersix2,
+    .sersix3,
+    .sixishchi {
+        display: none;
+    }
+
+    .sixsheet .sixbox1 {
+        width: 70%;
+        left: 15%;
+        height: 400px;
+        padding: 20px;
+        top: 290px;
+    }
+
+    .sixsheet .sixbox1 .sixboxp {
+        font-size: 18px;
+        width: 90%;
+        left: 5%;
+    }.sixsheet .sixbox2 .sixboxp {
+        font-size: 18px;
+        width: 90%;
+        left: 5%;
+    }.sixsheet .sixbox3 .sixboxp {
+        font-size: 18px;
+        width: 90%;
+        left: 5%;
+    }
+
+    .sixsheet .sixbox2 {
+        width: 70%;
+        left: 15%;
+        height: 400px;
+        padding: 20px;
+        top: 750px;
+    }
+
+    .sixsheet .sixbox3 {
+        width: 70%;
+        left: 15%;
+        height: 400px;
+        padding: 20px;
+        top: 1200px;
+    }
+    .sixsheet .sixgarant{
+        width: 70%;
+        left: 30%;
+        top: 1700px;
+    }
+
+    .sixsheet .sixgarant .mingarant {
+        left: 20px;
+        font-size: 43px;
+    }
+
+    .sixsheet .sixgarant .maxgarant {
+        left: 19px;
+        font-size: 43px;
+    }
+
+    .smallsix1,
+    .smallsix2 {
+        font-size: 19px;
+        position: absolute;
+        left: 20px;
+    }
+    .dashedline {
+        top: 110px;
+        width: 100px;
+    }
+    .smallsix2 {
+        width: 50%;
+        top: 170px;
+        font-size: 18px;
     }
 }

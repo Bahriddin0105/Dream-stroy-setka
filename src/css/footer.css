@@ -1,0 +1,231 @@
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    left: 0px;
+    /* bottom: 0px; */
+    top: 7610px;
+    /* top: 0px; */
+    /* black */
+
+    background: #313131;
+}
+
+.footer .foologo {
+    position: relative;
+    width: 6.1%;
+    /* height: 88px; */
+    left: 21.1%;
+    top: 36px;
+
+}
+
+.footer .foop {
+    position: absolute;
+    width: 10%;
+    height: 60px;
+    left: 29%;
+    top: 48px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.footer .footg {
+    box-sizing: border-box;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 42.7%;
+    top: 56px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+}
+
+.footer .fooins {
+    box-sizing: border-box;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 45.9%;
+    top: 56px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+}
+
+.footer .fooface {
+    box-sizing: border-box;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 49%;
+    top: 56px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+}
+
+.footer .footime1 {
+    position: absolute;
+    width: 8.4%;
+    height: 23px;
+    left: 55%;
+    top: 56px;
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.footer .footime2 {
+    position: absolute;
+    width: 5.4%;
+    height: 21px;
+    left: 55%;
+    top: 79px;
+
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+
+    opacity: 0.7;
+}
+
+.footer .foonuqta {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 68.4%;
+    top: 56px;
+    border-radius: 50%;
+    background: #EE7429;
+}
+
+.footer .foophone1 {
+    position: absolute;
+    width: 9.5%;
+    height: 18px;
+    left: 69%;
+    top: 51px;
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 130%; */
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.footer .foophone2 {
+    position: absolute;
+    width: 12%;
+    height: 31px;
+    left: 67%;
+    top: 74px;
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.footg img{
+    margin-top: 9px;
+    margin-left: 9px;
+}
+.fooins img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.fooface img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+@media (min-width: 451px) and (max-width: 1500px){
+    .footer .foologo{
+        top: 45px;
+    }
+    .footer .foop{
+        font-size: 10px;
+        top: 60px;
+    }
+    .fooins, .footg, .fooface{
+        width: 40px;
+        height: 40px;
+    }
+    .footer .footime1{
+        /* width: 7%; */
+        font-size: 16px;
+    }
+    .footer .footime2{
+        font-size: 14px;
+    }
+    .footer .foophone1{
+        font-size: 12px;
+    }
+    .footer .foophone2{
+        font-size: 22px ;
+    }
+}
+@media (max-width: 450px){
+    .footer{
+        width: 100%;
+        height: 400px;
+        top: 11100px;
+    }
+    .footer .foologo{
+        left: 15%;
+        width: 25%;
+    }
+    .footer .foop{
+        left: 45%;
+        width: 40%;
+        top: 40px;
+    }
+    .footer .footg{
+        top: 150px;
+        left: 25%;
+        /* width: 15%; */
+    }
+    .footer .fooins{
+        top: 150px;
+        left: 42.5%;
+    }
+    .footer .fooface{
+        top: 150px;
+        left: 60%;
+    }
+    .footer .footime1{
+        left: 10%;
+        top: 250px;
+        width: 30%;
+        font-size: 14px;
+    }
+    .footer .footime2{
+        left: 10%;
+        top: 275px;
+        width: 22%;
+        font-size: 12px;
+    }
+    .footer .foophone1{
+        top: 250px;
+        left: 60%;
+        width: 40%;
+        font-size: 12px;
+    }
+    .footer .foophone2{
+        top: 280px;
+        width: 50%;
+        left: 50%;
+    }
+    .foonuqta{
+        display: none;
+    }
+}

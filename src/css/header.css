@@ -354,6 +354,8 @@
 .body .konsultatsiya p {
   width: 120px;
   height: 20px;
+  margin-top: 10px;
+  margin-left: -20px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;

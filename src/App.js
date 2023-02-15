@@ -7,6 +7,7 @@ import Sixsheet from "./jss/Sixsheet";
 import Threesheet from "./jss/Threesheet";
 import Twosheet from "./jss/Twosheet";
 import Sevensheet from "./jss/Sevensheet";
+import Footer from "./jss/Footer";
 
 export default class App extends Component {
   render() {
@@ -18,8 +19,9 @@ export default class App extends Component {
         <Threesheet />
         <Foursheet />
         <Fivesheet/>
-        {/* <Sixsheet/> */}
-        {/* <Sevensheet/> */}
+        <Sixsheet/>
+        <Sevensheet/>
+        <Footer/>
       </div>
     );
   }

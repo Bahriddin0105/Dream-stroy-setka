@@ -1,0 +1,167 @@
+.sevensheet {
+    position: relative;
+    top: 5230px;
+    left: 0px;
+    width: 100%;
+    height: 600px;
+    /* background-color: antiquewhite; */
+    border-top: 5px solid white;
+}
+
+.kontankseven {
+
+    position: absolute;
+    width: 370px;
+    height: 238px;
+    left: 405px;
+    top: 166px;
+    background: #FFFFFF;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.kontankseven .borderseven {
+    position: relative;
+    width: 350px;
+    height: 218px;
+    left: 10px;
+    top: 10px;
+    /* opacity: 0.3; */
+    /* z-index: 2; */
+    border: 1px dashed #313131;
+    border-radius: 8px;
+}
+
+.sevensheet .sevensheeth3 {
+    position: absolute;
+    width: 126px;
+    height: 36px;
+    left: 22px;
+    top: 29px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+
+
+    /* black */
+
+    color: #313131;
+
+}
+
+.sevensheet .sevenmap {
+    width: 100%;
+    height: 400px;
+}
+
+.sevensheet .geotext {
+
+    position: absolute;
+    width: 223px;
+    height: 42px;
+    left: 45px;
+    top: 71px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+
+    /* black */
+
+    color: #313131;
+
+}
+
+.sevensheet .geoicon {
+    position: absolute;
+    left: 20px;
+    top: 70px;
+}
+
+.sevensheet .timetext {
+    position: absolute;
+    width: 201px;
+    height: 19px;
+    left: 45px;
+    top: 129px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.3403px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* black */
+
+    color: #313131;
+
+}
+
+.sevensheet .timeicon {
+    position: absolute;
+    left: 18px;
+    top: 129px;
+}
+
+.sevensheet .phonetext {
+
+    position: absolute;
+    width: 300px;
+    height: 19px;
+    left: 45px;
+    top: 164px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.3403px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* black */
+
+    color: #313131;
+
+}
+
+.sevensheet .phoneicon {
+    position: absolute;
+    left: 18px;
+    top: 164px;
+}
+
+.sevensheet .sevenmaps {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 600px;
+}
+@media (min-width: 451px) and (max-width){
+    .sevensheet{
+        width: 100%;
+    }
+}
+@media(max-width: 450px){
+    .sevensheet{
+        width: 100%;
+        top: 8000px;
+    }
+    .kontankseven{
+        left: 8%;
+    }
+    .borderseven{
+        left: 11%;
+    }
+}

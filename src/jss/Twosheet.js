@@ -24,9 +24,9 @@ export default class Twosheet extends Component {
               <label className="numlabel">Введите номер</label>
               <input className="innum" type="number" placeholder="+998" />
             </span>
-            <span className="twosheetbtn">
+            <a href="tel:+998955000099"><span className="twosheetbtn">
               <p>Оставьте заявку</p>
-            </span>
+            </span></a>
             <p className="twosheetend">
               Нажимая “Оставить заявку” вы даете согласие на обработку ваших
               данных

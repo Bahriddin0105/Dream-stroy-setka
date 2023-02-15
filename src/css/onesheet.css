@@ -84,7 +84,6 @@
   justify-content: center;
   align-items: center;
   padding: 12px 40px;
-  /* box-sizing: border-box; */
   position: absolute;
   width: 30%;
   height: 30px;
@@ -160,11 +159,12 @@
   align-items: center;
   padding: 12px 40px;
   position: absolute;
-  width: 100px;
+  width: 30%;
   height: 30px;
   top: 200px;
   background: #ff9200;
   border-radius: 10px;
+  
 }
 
 .card2 .cardbtn p {
@@ -236,7 +236,7 @@
   padding: 12px 40px;
 
   position: absolute;
-  width: 100px;
+  width: 30%;
   height: 30px;
   top: 200px;
   background: #ff9200;
@@ -314,7 +314,7 @@
   padding: 12px 40px;
 
   position: absolute;
-  width: 100px;
+  width: 30%;
   height: 30px;
   top: 200px;
   background: #ff9200;
@@ -394,7 +394,7 @@
   padding: 12px 40px;
 
   position: absolute;
-  width: 100px;
+  width: 30%;
   height: 30px;
   top: 200px;
   background: #ff9200;
@@ -474,7 +474,7 @@
   padding: 12px 40px;
 
   position: absolute;
-  width: 100px;
+  width: 30%;
   height: 30px;
   top: 200px;
   background: #ff9200;
@@ -553,7 +553,7 @@
   padding: 12px 40px;
 
   position: absolute;
-  width: 100px;
+  width: 30%;
   height: 40px;
   top: 200px;
   background: #ff9200;

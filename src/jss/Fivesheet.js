@@ -20,7 +20,7 @@ export default class Fivesheet extends Component {
                     <h1 className="fivesheeth1">Интересно как происходит<br /><b style={{textTransform: "uppercase"}}>
                         процесс работы?</b></h1>
                     <p className="fivesheetp">"Dream stroy setka" - является одним из ведущих производителей строительных сеток и проволок на рынке Узбекистана. Основная цель нашей компании — производить  сетки, которые качественные и надежные. Мы шаг за шагом и постоянно обновляем наши коллекции, материалы и постоянно совершенствуемся.</p>
-                    <button className="konsul">Консультация</button>
+                    <a href="tel:+998955000099"><button className="konsul">Консультация</button></a>
                     <div className="klentimg">
                        <div className="disco1"> <img src={disco} alt="" /> </div>
                        <div className="dream1"> <img src={dream} alt="" /> </div>

@@ -5,6 +5,7 @@
   height: 1200px;
   top: 1530px;
 }
+
 .threesheet .threeh1 {
   position: relative;
   width: 55%;
@@ -25,7 +26,7 @@
   position: relative;
   width: 55%;
   left: 25%;
-  top: 0px;
+  top: 18px;
 
   font-family: "Montserrat";
   font-style: normal;
@@ -34,20 +35,21 @@
   text-align: center;
   color: #323232;
 }
+
 .filesimg .file1 {
   position: relative;
   width: 13%;
-  /* height: 270px; */
   left: 28%;
   top: 11px;
 }
+
 .filesimg .file2 {
   position: relative;
   width: 25%;
-  /* height: 240px; */
   left: 0%;
   top: 20px;
 }
+
 .threecard1 {
   position: absolute;
   width: 20%;
@@ -59,6 +61,7 @@
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
+
 .threecard2 {
   position: absolute;
   width: 20%;
@@ -70,6 +73,7 @@
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
+
 .threecard3 {
   position: absolute;
   width: 20%;
@@ -81,6 +85,7 @@
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
+
 .threecard4 {
   position: absolute;
   width: 20%;
@@ -92,6 +97,7 @@
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
+
 .threecard5 {
   position: absolute;
   width: 20%;
@@ -103,6 +109,7 @@
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
+
 .threecard6 {
   position: absolute;
   width: 20%;
@@ -114,6 +121,7 @@
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
+
 .threecard7 {
   position: absolute;
   width: 20%;
@@ -125,6 +133,7 @@
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
+
 .threecard8 {
   position: absolute;
   width: 20%;
@@ -136,6 +145,7 @@
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
+
 .threecardh2 {
   position: relative;
   width: 178px;
@@ -156,6 +166,7 @@
 
   color: #ff9200;
 }
+
 .threeicon {
   position: relative;
   width: 40%;
@@ -163,6 +174,7 @@
   left: 60%;
   top: -130px;
 }
+
 .threecardp {
   position: absolute;
   width: 75%;
@@ -181,14 +193,104 @@
 
   color: #323232;
 }
-@media (min-width: 425px) and (max-width: 1500px) {
+
+@media (min-width: 451px) and (max-width: 1500px) {
   .threecardh2 {
     font-size: 17px;
   }
+
   .threecardp {
     font-size: 15px;
   }
+
   .threeicon {
     top: -100px;
+  }
+}
+
+@media (max-width: 450px) {
+  .threesheet {
+    top: 2130px;
+  }
+
+  .threesheet .threeh1 {
+    font-size: 30px;
+    line-height: 1;
+  }
+
+  .threesheet .threep {
+    width: 80%;
+    left: 10%;
+    line-height: 1;
+    font-size: 16px;
+    top: 35px;
+  }
+
+  .filesimg .file1 {
+    width: 30%;
+    left: 50%;
+    top: 40px;
+  }
+
+  .filesimg .file2 {
+    width: 60%;
+    left: -20%;
+    top: 60px;
+  }
+
+  .threesheet .threecard1 {
+    width: 80%;
+    left: 10%;
+    top: 400px;
+  }
+
+  .threeicon {
+    top: -100px;
+  }
+
+  .threesheet .threecard2 {
+    width: 80%;
+    left: 10%;
+    top: 700px;
+  }
+  
+  .threesheet .threecard3 {
+    width: 80%;
+    left: 10%;
+    top: 1000px;
+  }
+  
+  .threesheet .threecard4 {
+    width: 80%;
+    left: 10%;
+    top: 1300px;
+  }
+  
+  .threesheet .threecard5 {
+    width: 80%;
+    left: 10%;
+    top: 1600px;
+  }
+  
+  .threesheet .threecard6 {
+    width: 80%;
+    left: 10%;
+    top: 1900px;
+  }
+  .threesheet .threecard7 {
+    width: 80%;
+    left: 10%;
+    top: 2200px;
+  }
+  
+  .threesheet .threecard8 {
+    width: 80%;
+    left: 10%;
+    top: 2500px;
+  }
+  .threecardp{
+    font-size: 16px;
+    left: 30px;
+    top: 80px;
   }
 }

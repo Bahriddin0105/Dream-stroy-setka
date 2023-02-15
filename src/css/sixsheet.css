@@ -1,15 +1,241 @@
-.sixsheet{
+.sixsheet {
+    position: relative;
+    top: 5235px;
+    left: 0px;
     width: 100%;
     height: 1013px;
     background-image: url("../image/sixbg.png");
-    position: absolute;
-    top: 160px;
-    left: 0px;
+    z-index: -5;
 }
-.sixsheet .sixshit{
-    position: relative;
-width: 394.35px;
-/* height: 428.61px; */
-left: 0px;
-top: -140px;
+
+.sixsheet .sixshit {
+    position: absolute;
+    width: 20%;
+    left: 0px;
+    top: -140px;
+}
+
+.sixsheet .sixh1 {
+    position: absolute;
+    width: 65%;
+    left: 17.5%;
+    top: 70px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    color: #323232;
+}
+
+.sixsheet .sixbox1 {
+    position: absolute;
+    width: 11.7%;
+    height: 300px;
+    left: 21%;
+    top: 290px;
+    opacity: 0.8;
+    border-radius: 8px;
+    background-image: url("../image/backfon.png");
+    background-size: cover;
+}
+
+.sixsheet .sixboxp {
+    position: absolute;
+    width: 90%;
+    /* height: 60px; */
+    left: 0.5;
+    top: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sixsheet .sixboximg {
+    position: absolute;
+    width: 100%;
+    /* height: 150px; */
+    left: 0px;
+    top: 140px;
+}
+
+.sixsheet .sixbox2 {
+    position: absolute;
+    width: 11.7%;
+    height: 300px;
+    left: 34.3%;
+    top: 290px;
+    opacity: 0.8;
+    border-radius: 8px;
+    background-image: url("../image/backfon.png");
+    background-size: cover;
+}
+
+.sixsheet .sixbox3 {
+    position: absolute;
+    width: 11.7%;
+    height: 300px;
+    left: 47.6%;
+    top: 290px;
+    opacity: 0.8;
+    border-radius: 8px;
+    background-image: url("../image/backfon.png");
+    background-size: cover;
+}
+
+.sixsheet .sixishchi {
+    position: absolute;
+    width: 25.8%;
+    height: 623px;
+    left: 57%;
+    top: 390px;
+    z-index: 1;
+}
+
+.sixsheet .sixgarant {
+    position: absolute;
+    width: 17.4%;
+    height: 250px;
+    left: 45.8%;
+    top: 643px;
+    background: #FF9200;
+    border-radius: 30px 0px 0px 30px;
+    z-index: -0;
+    padding: 20px;
+}
+
+.sixsheet .sixgarant .mingarant {
+    position: absolute;
+    width: 80%;
+    height: 68px;
+    left: 1.5%;
+    top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.smallsix1,
+.smallsix2 {
+    font-size: 20px;
+    position: absolute;
+    top: 60px;
+    left: 1.5%;
+    color: #FFFFFF;
+}
+
+.smallsix2 {
+    width: 7.8%;
+    top: 170px;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.dashedline {
+    position: absolute;
+    width: 9.3%;
+    height: 0px;
+    left: 16px;
+    top: 5.6%;
+    border: 1px dashed #FFFFFF;
+}
+
+.sixsheet .sixgarant .maxgarant {
+    position: absolute;
+    width: 88%;
+    height: 74px;
+    left: 1.5%;
+    top: 120px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.sixsheet .setkasix {
+    position: absolute;
+    width: 100%;
+    height: 357px;
+    left: 0px;
+    top: 656px;
+    z-index: -1;
+}
+
+.sixsheet .sersix1 {
+    position: absolute;
+    width: 5.7%;
+    left: 21.6%;
+    top: 690px;
+    border: 7px solid black;
+}
+
+.sixsheet .sersix2 {
+    position: absolute;
+    width: 5.7%;
+    left: 30%;
+    top: 690px;
+    border: 7px solid black;
+}
+
+.sixsheet .sersix3 {
+    position: absolute;
+    width: 5.7%;
+    left: 38%;
+    top: 690px;
+    border: 7px solid black;
+}
+
+@media (min-width: 425px) and (max-width: 1500px) {
+    .sixsheet .sixh1 {
+        font-size: 32px;
+    }
+
+    .sixsheet .sixboximg {
+        width: 80%;
+        left: 5%;
+        top: 160px;
+    }
+
+    .sixbox1,
+    .sixbox3,
+    .sixbox2 {
+        height: 270px;
+    }
+
+    .sixsheet .sixgarant {
+        top: 700px;
+    }
+
+    .sixsheet .sixgarant .mingarant {
+        left: 20px;
+        font-size: 43px;
+    }
+    .sixsheet .sixgarant .maxgarant {
+        /* width: ; */
+        left: 19px;
+        font-size: 43px;
+    }
+    .smallsix1,
+    .smallsix2 {
+        font-size: 19px;
+        position: absolute;
+        left: 20px;
+    }
+    .smallsix2 {
+        width: 7.8%;
+        top: 170px;
+        font-size: 18px;
+    }
+    .dashedline{
+        top: 110px;
+        width: 100px;
+    }
 }

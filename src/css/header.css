@@ -1,11 +1,15 @@
 .back {
-  position: absolute;
+  position: relative;
   top: 0%;
   left: 0%;
+  width: 100%;
+  height: 760px;
+  background-image: url("../image/bg.png");
+  background-size: cover;
 }
 
 .backimg {
-  position: relative;
+  position: absolute;
   top: 0%;
   left: 0%;
   width: 100%;
@@ -23,10 +27,6 @@
   /* height: 480px; */
   left: 0%;
   top: 330px;
-  /* 
-background: url(Bush.I02.png);
-filter: blur(7.5px);
-transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
 
 .leftbargright img {
@@ -35,10 +35,6 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   /* height: 480px; */
   right: 0%;
   top: 330px;
-  /* 
-background: url(Bush.I02.png);
-filter: blur(7.5px);
-transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
 
 .navbar .logo {
@@ -314,7 +310,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   width: 30px;
   height: 0px;
   left: 21%;
-  top: 380px;
+  top: 365px;
   border: 3px solid #ff9200;
 }
 
@@ -342,12 +338,11 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 12px 35px;
-
+  /* padding: 12px 40px; */
   position: absolute;
   width: 10%;
   height: 44px;
-  left: 21%;
+  left: 20%;
   top: 430px;
 
   /* orange */
@@ -359,25 +354,16 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
 .body .konsultatsiya p {
   width: 120px;
   height: 20px;
-
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  line-height: 20px;
-  /* identical to box height */
-
-  /* white */
-
   color: #ffffff;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
-@media (min-width: 425px) and (max-width: 1500px) {
+@media (min-width: 451px) and (max-width: 1500px) {
+  .back{
+    height: 560px;
+  }
   .leftbargleft img {
     top: 310px;
     width: 15%;
@@ -396,9 +382,10 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   }
 
   .navbar .logotekst {
-    width: 9%;
+    width: 10%;
+    left: 29%;
     top: 30px;
-    font-size: 11px;
+    font-size: 10px;
   }
   .navbar .tground {
     width: 30px;
@@ -437,6 +424,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   }
   .navbar .time2 {
     top: 50px;
+    font-size: 16px;
   }
   .navbar .nuqta {
     width: 5px;
@@ -446,11 +434,12 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
   }
   .navbar .phone1 {
     top: 38px;
-    font-size: 12px;
+    font-size: 10px;
   }
   .navbar .phone2 {
     top: 47px;
-    font-size: 20px;
+    font-size: 18px;
+    left: 60.8%;
   }
   .navbar .languz {
     width: 40px;
@@ -471,24 +460,119 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
     top: -50%;
   }
   .body .bodytekst {
-    top: 90px;
+    top: 130px;
     width: 50%;
     font-size: 33px;
   }
   .body .bodyline {
-    width: 25px;
-    top: 260px;
+    width: 30px;
+    top: 280px;
+    border-radius: 5px;
   }
   .body .linetekst {
-    top: 238px;
+    top: 270px;
     font-size: 14px;
     left: 24%;
   }
   .body .konsultatsiya {
-    top: 300px;
-    width: 8%;
+    top: 350px;
+    width: 15%;
     height: 30px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 450px) {
+  .leftbargleft img {
+   width: 0%;
+  }
+
+  .leftbargright img {
+    width: 0%;
+    
+  }
+  .navbar .logo {
+    position: absolute;
+    width: 30%;
+    height: 15;
+    left: 21.5%;
+    top: 19px;
+  }
+  .back{
+    width: 100%;
+    height: 500px;
+  }
+  .navbar .logotekst {
+    width: 40%;
+    left: 55%;
+    top: 35px;
+    font-size: 12px;
+  }
+  .navbar .tground {
+    display: none;
+  }
+  .navbar .instaround {
+    display: none;
+  }
+  .navbar .faceround {
+    display: none;
+  }
+  .tground img {
+    display: none;
+  }
+  .instaround img {
+    display: none;
+  }
+  .faceround img {
+    display: none;
+  }
+  .navbar .time1 {
+    display: none;
+  }
+  .navbar .time2 {
+    display: none;
+  }
+  .navbar .nuqta {
+    display: none;
+  }
+  .navbar .phone1 {
+    display: none;
+  }
+  .navbar .phone2 {
+    display: none;
+  }
+  .navbar .languz {
+    display: none;
+  }
+  .navbar .langru {
+    display: none;
+  }
+  .languz .uz {
+    display: none;
+  }
+  .langru .ru {
+    display: none;
+  }
+  .body .bodytekst {
+    top: 200px;
+    width: 80%;
+    left: 10%;
+    font-size: 19px;
+  }
+  .body .bodyline {
+    width: 30px;
+    top: 340px;
+    left: 10%;
+    border-radius: 5px;
+  }
+  .body .linetekst {
+    top: 330px;
+    width: 60%;
+    font-size: 12px;
+    left: 20%;
+  }
+  .body .konsultatsiya {
+    top: 390px;
+    width: 50%;
+    left: 10%;
+    height: 40px;
+  }
 }

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Button } from "react-bootstrap";
 import "../css/fivesheet.css";
 import five1 from "../image/Rectangle 1333.png"
 import five2 from "../image/Rectangle 1334.png"

@@ -63,7 +63,7 @@
   width: 55%;
   height: 63px;
   left: 0%;
-  top: 5%;
+  top: 40px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -102,6 +102,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+  margin-top: 18px;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -175,6 +176,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+  margin-top: 18px;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -250,6 +252,7 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
+  margin-top: 18px;
   color: #ffffff;
   flex: none;
   order: 0;
@@ -327,6 +330,7 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
+  margin-top: 18px;
   color: #ffffff;
   flex: none;
   order: 0;
@@ -406,6 +410,7 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
+  margin-top: 18px;
   color: #ffffff;
   flex: none;
   order: 0;
@@ -485,6 +490,7 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
+  margin-top: 18px;
   color: #ffffff;
   flex: none;
   order: 0;
@@ -541,14 +547,14 @@
 }
 .card7 .cardbtn {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: center;
   align-items: center;
   padding: 12px 40px;
 
   position: absolute;
   width: 100px;
-  height: 30px;
+  height: 40px;
   top: 200px;
   background: #ff9200;
   border-radius: 10px;
@@ -563,12 +569,17 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
+  margin-top: 18px;
   color: #ffffff;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
-@media (min-width: 425px) and (max-width: 1500px) {
+@media (min-width: 450px) and (max-width: 1500px) {
+  .cardbtn{
+    width: 90px;
+    height: 30px;
+  }
   .onesheeet {
     top: 534px;
     left: 0px;
@@ -624,5 +635,131 @@
   }
   .card7 .cardp {
     font-size: 14px;
+  }
+}
+@media (max-width: 449px){
+  .onesheeet{
+    top: 470px;
+    left: 0px;
+    /* height: 1200px; */
+  }
+  .onesheet .onesheeth1 {
+    font-size: 25px;
+    line-height: 1;
+  }
+  .onesheet .onesheetp{
+    font-size: 15px;
+    top: 140px;
+    line-height: 1;
+  }
+  .onesheeet .card1{
+    width: 80%;
+    left: 10%;
+  }
+  .onesheeet .card2{
+    width: 80%;
+    left: 10%;
+    top: 600px;
+  }
+  .onesheeet .card3{
+    width: 80%;
+    left: 10%;
+    top: 940px;
+  }
+  .onesheeet .card4{
+    width: 80%;
+    left: 10%;
+    top: 1280px;
+  }
+  .onesheeet .card5{
+    width: 80%;
+    left: 10%;
+    top: 1620px;
+  }
+  .onesheeet .card6{
+    width: 80%;
+    left: 10%;
+    top: 1960px;
+  }
+  .onesheeet .card7{
+    width: 80%;
+    left: 10%;
+    top: 2300px;
+  }
+  .card1 .cardh3{
+    width: 60%;
+    line-height: 0.8;
+  }
+  .card1 .cardp{
+    font-size: 13px;
+  }
+  .card1 .cardbtn{
+    top: 240px;
+  }
+  .card2 .cardh3{
+    width: 60%;
+    line-height: 0.8;
+  }
+  .card2 .cardp{
+    font-size: 13px;
+    top:50px;
+  }
+  .card2 .cardbtn{
+    top: 240px;
+  }
+  .card3 .cardh3{
+    width: 60%;
+    line-height: 0.8;
+  }
+  .card3 .cardp{
+    font-size: 13px;
+    top:50px;
+  }
+  .card3 .cardbtn{
+    top: 240px;
+  }
+  .card4 .cardh3{
+    width: 60%;
+    line-height: 0.8;
+  }
+  .card4 .cardp{
+    font-size: 13px;
+    top:50px;
+  }
+  .card4 .cardbtn{
+    top: 240px;
+  }
+  .card5 .cardh3{
+    width: 60%;
+    line-height: 0.8;
+  }
+  .card5 .cardp{
+    font-size: 13px;
+    top:50px;
+  }
+  .card5 .cardbtn{
+    top: 240px;
+  }
+  .card6 .cardh3{
+    width: 60%;
+    line-height: 0.8;
+  }
+  .card6 .cardp{
+    font-size: 13px;
+    top:50px;
+  }
+  .card6 .cardbtn{
+    top: 240px;
+  }
+  .card7 .cardh3{
+    width: 60%;
+    line-height: 0.8;
+  }
+  .card7 .cardp{
+    font-size: 13px;
+    top:50px;
+  }
+  .card7 .cardbtn{
+    top: 240px;
   }
 }

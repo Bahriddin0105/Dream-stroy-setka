@@ -171,7 +171,7 @@
      width: 200px;
  }
 
- @media (min-width: 425px) and (max-width: 1500px){
+ @media (min-width: 451px) and (max-width: 1500px){
     .fivesheet .mijoz{
         font-size: 21px;
     }
@@ -183,5 +183,24 @@
     }
     .fivesheet .konsul{
         font-size: 14px;
+    }
+ }
+ @media (max-width: 450px){
+    .fivesheet{
+        top: 7600px;
+        width: 100%;
+    }
+    .fivesheet .ish1{
+        width: 40%;
+        left: 7%;
+    }
+    .fivesheet .ish2{
+        width: 40%;
+        left: 12%;
+    }
+    .fivesheet .bizhaq{
+        top: 400px;
+        width: 20%;
+        left: 20%;
     }
  }

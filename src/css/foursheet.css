@@ -107,7 +107,7 @@ line-height: 20px;
 
 color: #323232;
 }
-@media (min-width: 425px) and (max-width: 1500px){
+@media (min-width: 451px) and (max-width: 1500px){
     .foursheet .icondas {
         width: 64px;
     }
@@ -128,5 +128,49 @@ color: #323232;
     .foursheet .textbox{
         width: 22%;
         left: 27%;
+    }
+}
+@media (max-width: 450px){
+    .foursheet{
+    top: 7070px;
+    height: 550px;
+    }
+    .foursheet .fourh1{
+        width: 80%;
+        left: 10%;
+        font-size: 35px;
+    }
+    .foursheet .icondas {
+        width: 40px;
+        left: 10%;
+        top: 80px;
+    }
+    .foursheet .textdas{
+        width: 60%;
+        left: 22%;
+        top: 40px;
+        font-size: 14px;
+    }
+    .foursheet .icontime {
+        width: 40px;
+        left: 10%;
+        top: 80px;
+    }
+    .foursheet .texttime{
+        width: 60%;
+        left: 22%;
+        top: 40px;
+        font-size: 14px;
+    }
+    .foursheet .iconbox {
+        width: 40px;
+        left: 10%;
+        top: 80px;
+    }
+    .foursheet .textbox{
+        width: 60%;
+        left: 22%;
+        top: 40px;
+        font-size: 14px;
     }
 }
